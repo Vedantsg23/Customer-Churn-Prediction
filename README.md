@@ -43,7 +43,10 @@ It includes **EDA, preprocessing, model training, evaluation, feature importance
 ---
 
 ## 📂 Project Structure
-ustomer-Churn-Prediction/
+
+
+
+customer-Churn-Prediction/
 │── churn_project.ipynb
 │── README.md
 │── requirements.txt
@@ -105,6 +108,20 @@ Monthly Charges
 Payment Method
 
 Internet Service
+
+
+## ✅ Proof that project works
+To run the project locally:
+
+### 1) Install requirements
+python -m pip install -r requirements.txt
+
+### 2) Run Streamlit app
+python -m streamlit run app/app.py
+
+Then open:
+http://localhost:8501
+
 
 ✅ Author
 
