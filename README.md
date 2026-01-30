@@ -1,0 +1,118 @@
+# 📉 Customer Churn Prediction using Machine Learning + Streamlit
+
+This project predicts whether a customer will **churn (leave the service)** based on telecom customer data.  
+It includes **EDA, preprocessing, model training, evaluation, feature importance**, and a **Streamlit web app** for live churn prediction.
+
+---
+
+## 🚀 Project Features
+✅ Data Cleaning & Preprocessing  
+✅ Exploratory Data Analysis (EDA)  
+✅ Machine Learning Models:
+- Logistic Regression
+- Random Forest Classifier  
+✅ Evaluation Metrics:
+- Accuracy
+- Recall
+- ROC-AUC  
+✅ Feature Importance Analysis  
+✅ Streamlit Web App for prediction  
+✅ Model saving using Joblib  
+
+---
+
+## 🧾 Dataset
+- **Telco Customer Churn Dataset**
+- Target column: **Churn** (Yes/No)
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Joblib
+- Streamlit
+
+---
+
+## 📂 Project Structure
+ustomer-Churn-Prediction/
+│── churn_project.ipynb
+│── README.md
+│── requirements.txt
+│
+├── data/
+│ └── Telco_Customer_Churn.csv
+│
+├── model/
+│ ├── churn_model.pkl
+│ ├── scaler.pkl
+│ └── training_columns.pkl
+│
+└── app/
+└── app.py
+
+
+---
+
+## ⚙️ How to Run the Project
+
+### ✅ 1) Install Dependencies
+```bash
+python -m pip install pandas numpy matplotlib seaborn scikit-learn joblib streamlit
+✅ 2) Run Jupyter Notebook
+
+Open and run:
+
+churn_project.ipynb
+
+✅ 3) Run Streamlit Web App
+python -m streamlit run app/app.py
+
+
+Open in browser:
+✅ http://localhost:8501
+
+📊 Model Evaluation
+
+The project is evaluated using:
+
+Accuracy
+
+Recall (important to catch churn customers)
+
+ROC-AUC
+
+Random Forest generally performs best and provides feature importance.
+
+⭐ Feature Importance
+
+The project identifies the most important churn-driving factors such as:
+
+Contract type
+
+Tenure
+
+Monthly Charges
+
+Payment Method
+
+Internet Service
+
+✅ Author
+
+Vedant Gadage
+Computer Engineering Student
+
+
+---
+
+# ✅ STEP 6: Push README to GitHub
+After creating README.md, run:
+
+```bash
+git add .
+git commit -m "Added professional README"
+git push
