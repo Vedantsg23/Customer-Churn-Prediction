@@ -5,6 +5,11 @@ It includes **EDA, preprocessing, model training, evaluation, feature importance
 
 ---
 
+
+## 🌐 Live Demo
+✅ Streamlit App Link: https://customer-churn-prediction-adan4su6jgbl4j4nlzpdge.streamlit.app/
+
+
 ## 🚀 Project Features
 ✅ Data Cleaning & Preprocessing  
 ✅ Exploratory Data Analysis (EDA)  
