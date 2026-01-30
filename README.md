@@ -123,6 +123,21 @@ Then open:
 http://localhost:8501
 
 
+## 📸 Screenshots
+
+### Streamlit App
+![image alt](https://github.com/Vedantsg23/Customer-Churn-Prediction/blob/1368cd7ee3a343df20e95d6d8edc6fcb69271f40/Screenshot%202026-01-31%20004326.png)
+
+### Prediction Output
+![image alt](https://github.com/Vedantsg23/Customer-Churn-Prediction/blob/1368cd7ee3a343df20e95d6d8edc6fcb69271f40/Screenshot%202026-01-31%20004337.png)
+
+
+
+
+
+
+
+
 ✅ Author
 
 Vedant Gadage
