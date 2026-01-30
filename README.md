@@ -115,12 +115,14 @@ Computer Engineering Student
 ## 📸 Screenshots
 
 ### Streamlit App
-<img width="1920" height="1080" alt="Screenshot 2026-01-31 004326" src="https://github.com/user-attachments/assets/4f2517f6-ee24-4fb9-9d68-97740cbe7887" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-31 004326" src="https://github.com/user-attachments/assets/01e3088a-ca6b-4c02-9a11-b833f88387da" />
 
 
 ### Prediction Output
-<img width="1920" height="1080" alt="Screenshot 2026-01-31 004337" src="https://github.com/user-attachments/assets/fef04a12-f2f0-4ae7-a25a-3468d4f37302" />
 
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-31 004337" src="https://github.com/user-attachments/assets/9d8d5dc9-ac5d-49c2-8388-5beaddb73ae2" />
 
 
 
