@@ -126,10 +126,10 @@ http://localhost:8501
 ## 📸 Screenshots
 
 ### Streamlit App
-https://github.com/Vedantsg23/Customer-Churn-Prediction/blob/main/Screenshot%202026-01-31%20004337.png?raw=true
+![image alt](https://github.com/Vedantsg23/Customer-Churn-Prediction/blob/b8cdddac048897ab4af638ba578cf6d67ec444de/Screenshot%202026-01-31%20004326.png)
 
 ### Prediction Output
-https://github.com/Vedantsg23/Customer-Churn-Prediction/blob/main/Screenshot%202026-01-31%20004337.png?raw=true
+
 
 
 
