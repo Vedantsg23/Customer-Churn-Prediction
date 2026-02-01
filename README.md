@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
+  <img src="https://img.shields.io/badge/Streamlit-App-red" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Classification-green" />
+  <img src="https://img.shields.io/badge/Scikit--learn-ML-orange" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
+
+
+
+
 # 📉 Customer Churn Prediction using Machine Learning + Streamlit
 
 This project predicts whether a customer will **churn (leave the service)** based on telecom customer data.  
