@@ -1,0 +1,6 @@
+# .streamlit/secrets.toml
+# Add your Anthropic API key here to enable the AI Assistant chatbot.
+# Get your key at: https://console.anthropic.com
+# DO NOT commit this file to GitHub — it's already in .gitignore.
+
+ANTHROPIC_API_KEY = "sk-ant-your-key-here"
