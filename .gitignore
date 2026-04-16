@@ -1,0 +1,22 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit
+.streamlit/
+
+# Secret files (if any)
+secrets.toml
+.env
+
+# Model binaries (if they are too large for git, but in this case they are small enough)
+# model/
+
+# Data
+data/*.csv
+!data/Telco_Customer_Churn.csv # Keep this one as it's needed for the dashboard
+
+# OS-specific files
+.DS_Store
+Thumbs.db
