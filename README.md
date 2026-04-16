@@ -1,143 +1,80 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" />
-  <img src="https://img.shields.io/badge/Streamlit-App-red" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-Classification-green" />
-  <img src="https://img.shields.io/badge/Scikit--learn-ML-orange" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Streamlit-1.32%2B-red?style=for-the-badge&logo=streamlit" />
+  <img src="https://img.shields.io/badge/AI-Chatbot-brightgreen?style=for-the-badge&logo=openai" />
+  <img src="https://img.shields.io/badge/UI-Glassmorphism-orange?style=for-the-badge&logo=css3" />
 </p>
 
+# 📉 ChurnAI: Premium Customer Retention Platform
 
-
-
-# 📉 Customer Churn Prediction using Machine Learning + Streamlit
-
-This project predicts whether a customer will **churn (leave the service)** based on telecom customer data.  
-It includes **EDA, preprocessing, model training, evaluation, feature importance**, and a **Streamlit web app** for live churn prediction.
+ChurnAI is a high-end, production-ready machine learning application designed to predict customer churn with precision. It features a stunning glassmorphic interface, interactive analytics, and an integrated AI assistant to help businesses optimize retention strategies.
 
 ---
-
 
 ## 🌐 Live Demo
-✅ Streamlit App Link: https://customer-churn-prediction-adan4su6jgbl4j4nlzpdge.streamlit.app/
-
-
-## 🚀 Project Features
-✅ Data Cleaning & Preprocessing  
-✅ Exploratory Data Analysis (EDA)  
-✅ Machine Learning Models:
-- Logistic Regression
-- Random Forest Classifier  
-✅ Evaluation Metrics:
-- Accuracy
-- Recall
-- ROC-AUC  
-✅ Feature Importance Analysis  
-✅ Streamlit Web App for prediction  
-✅ Model saving using Joblib  
+🚀 **[Access ChurnAI Platform](https://customer-churn-prediction-adan4su6jgbl4j4nlzpdge.streamlit.app/)**
 
 ---
 
-## 🧾 Dataset
-- **Telco Customer Churn Dataset**
-- Target column: **Churn** (Yes/No)
+## 🚀 Key Features
+
+### 1. 🏠 AI Predictor Hub
+- **High-Precision Prediction:** Uses a Random Forest Classifier to identify at-risk customers.
+- **Interactive Input:** Sleek, categorized form for customer profiling.
+- **Real-time Scoring:** Instant churn probability gauges and retention alerts.
+
+### 2. 📊 Analytics Hub (Plotly Powered)
+- **Churn Drivers:** Visual breakdowns of churn by contract type, internet service, and billing.
+- **Dynamic Insights:** Interactive box plots and scatter maps to explore monthly charge correlations.
+- **Data-Driven Strategy:** Identify exactly where customers are dropping off.
+
+### 3. 🤖 ChurnAI Support Assistant
+- **Context-Aware Support:** A built-in chat interface to query retention best practices.
+- **Intelligent Fallbacks:** Instant answers to common churn-related business questions.
+
+### 4. 📖 Comprehensive User Guide
+- In-app documentation for onboarding and interpreting model results.
 
 ---
 
-## 🛠️ Technologies Used
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Joblib
-- Streamlit
+## 🛠️ Technology Stack
+- **Frontend:** Streamlit, CSS3 (Glassmorphism)
+- **Analytics:** Plotly, Pandas, Seaborn
+- **Machine Learning:** Scikit-learn, Joblib
+- **AI:** OpenAI / Custom Logic Fallbacks
 
 ---
 
 ## 📂 Project Structure
-
-
-
-customer-Churn-Prediction/
-│── churn_project.ipynb
-│── README.md
-│── requirements.txt
-│
+```text
+Customer-Churn-Prediction/
+├── app/
+│   ├── app.py           # Main Application Logic
+│   └── style.css        # Premium Glassmorphic Styles
 ├── data/
-│ └── Telco_Customer_Churn.csv
-│
+│   └── Telco_Customer_Churn.csv
 ├── model/
-│ ├── churn_model.pkl
-│ ├── scaler.pkl
-│ └── training_columns.pkl
-│
-└── app/
-└── app.py
-
+│   ├── churn_model.pkl  # Trained Random Forest Model
+│   └── ...
+└── requirements.txt     # Dependency Specifications
+```
 
 ---
 
-## ⚙️ How to Run the Project
+## ⚙️ Quick Start
 
-### ✅ 1) Install Dependencies
+### 1️⃣ Install Dependencies
 ```bash
-python -m pip install pandas numpy matplotlib seaborn scikit-learn joblib streamlit
-✅ 2) Run Jupyter Notebook
+pip install -r requirements.txt
+```
 
-Open and run:
-
-churn_project.ipynb
-
-✅ 3) Run Streamlit Web App
+### 2️⃣ Launch Application
+```bash
 python -m streamlit run app/app.py
+```
 
+---
 
-Open in browser:
-✅ http://localhost:8501
-
-📊 Model Evaluation
-
-The project is evaluated using:
-
-Accuracy
-
-Recall (important to catch churn customers)
-
-ROC-AUC
-
-Random Forest generally performs best and provides feature importance.
-
-⭐ Feature Importance
-
-The project identifies the most important churn-driving factors such as:
-
-Contract type
-
-Tenure
-
-Monthly Charges
-
-Payment Method
-
-Internet Service
-
-
-## ✅ Proof that project works
-To run the project locally:
-
-### 1) Install requirements
-python -m pip install -r requirements.txt
-
-### 2) Run Streamlit app
-python -m streamlit run app/app.py
-
-Then open:
-http://localhost:8501
-
-
-✅ Author
-
-Vedant Gadage
-Computer Engineering Student
-
-
-
+## ✅ Author
+**Vedant Gadage**  
+*Computer Engineering Student | AI Enthusiast*

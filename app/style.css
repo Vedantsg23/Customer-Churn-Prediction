@@ -1,0 +1,90 @@
+/* Premium Glassmorphic Theme for Churn Prediction App */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --primary-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --accent-color: #00d2ff;
+    --text-color: #ffffff;
+}
+
+.stApp {
+    background: radial-gradient(circle at top right, #0a192f, #020c1b);
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-color) !important;
+    font-weight: 600 !important;
+}
+
+/* Glassmorphic Container */
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Custom Buttons */
+.stButton>button {
+    background: var(--primary-gradient) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.6rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 210, 255, 0.4);
+    background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%) !important;
+}
+
+/* Prediction Result Styling */
+.prediction-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.churn-warning {
+    background: rgba(255, 75, 75, 0.1);
+    border: 1px solid rgba(255, 75, 75, 0.3);
+    color: #ff4b4b;
+}
+
+.no-churn-success {
+    background: rgba(46, 213, 115, 0.1);
+    border: 1px solid rgba(46, 213, 115, 0.3);
+    color: #2ed573;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: rgba(2, 12, 27, 0.95) !important;
+    border-right: 1px solid var(--glass-border);
+}
+
+/* Metric Boxes */
+[data-testid="stMetricValue"] {
+    color: var(--accent-color) !important;
+}
+
+/* Inputs */
+.stSlider, .stSelectbox, .stNumericInput {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-radius: 8px !important;
+}
